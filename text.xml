@@ -20,4 +20,4 @@ Once the service connection is created, you can use it to access the GitHub repo
 
 Note that when using a GitHub App to authorize access to a repository, you will also need to grant the necessary permissions to the app in the GitHub repository settings. This can be done by going to the repository's "Settings" page, selecting "Installations", and then selecting the appropriate GitHub App. From here, you can grant the necessary permissions to the app.
 
-New GitHub Enterprise Server service connection with pat
+To create a new service connection in Azure DevOps that uses a Personal Access Token (PAT) to connect to a GitHub Enterprise Server instance, you can follow these steps

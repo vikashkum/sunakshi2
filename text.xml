@@ -1,0 +1,23 @@
+To authorize Azure DevOps to access a GitHub repository using a GitHub App and client ID, you can follow these steps:
+
+In your GitHub account, create a new GitHub App. To do this, go to the "Settings" page of your GitHub account, select "Developer settings", then select "GitHub Apps", and finally select "New GitHub App". Fill in the required information, such as the app name, description, and homepage URL.
+
+After creating the GitHub App, you will be taken to the "Settings" page for the app. From here, you will need to take note of the "Client ID" and "Client Secret". These will be used to authorize Azure DevOps to access the GitHub repository.
+
+In Azure DevOps, navigate to the project that you want to authorize access to the GitHub repository for.
+
+In the project settings, select "Service connections", and then select "New service connection".
+
+Select "GitHub", and then select "GitHub App".
+
+Enter the "Client ID" and "Client Secret" that you obtained from the GitHub App settings page.
+
+Enter the repository URL that you want to authorize access to, and select the appropriate authentication provider. In this case, select "GitHub App".
+
+Complete the remaining fields as appropriate, and then select "Verify and Save" to save the new service connection.
+
+Once the service connection is created, you can use it to access the GitHub repository in your Azure DevOps pipelines or releases.
+
+Note that when using a GitHub App to authorize access to a repository, you will also need to grant the necessary permissions to the app in the GitHub repository settings. This can be done by going to the repository's "Settings" page, selecting "Installations", and then selecting the appropriate GitHub App. From here, you can grant the necessary permissions to the app.
+
+New GitHub Enterprise Server service connection with pat
